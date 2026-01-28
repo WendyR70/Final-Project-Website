@@ -1,0 +1,31 @@
+/******************************************************************************
+#1: use the sample CSS below to point out examples of the following: 
+(1) style rule, (2) declaration, (3) selector, (4) property, and (5) value                          
+*******************************************************************************/
+
+#beautiful {
+  font-family: Cambria;
+  color: #07ff7f;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.ugly  {
+  font-family: Arial;
+  color: #ff0000;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+
+/******************************************************************************
+#2: Find & fix the 3 bugs in the CSS below
+*******************************************************************************/
+
+h1 {
+  font-family: Arial;
+  color: #00ffff;
+    font-size: 20px;
+  margin-left: 20px;
+
+}
