@@ -4,29 +4,9 @@ body {
     font-style: italic;
     font-weight: bold;
 }
-.offer-list {
-    list-style-type: square;
-    margin: 5px;
-    padding: 10px;
-}
-a {
-    color: darkgreen;
-}
-a:hover {
-  color:red;
-}
-.new-content-block {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: lightgreen;
-    border: 1px solid thin;
-    border-radius: 5px;
-}
 .flex-container {
     display: flex;
-    background-color: orange;
+    background-color: lightgreen;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -67,6 +47,26 @@ a:hover {
 .flex-item:hover .overlay {
     height: 100%;
 }
+.offer-list {
+    list-style-type: square;
+    margin: 5px;
+    padding: 10px;
+}
+a {
+    color: darkgreen;
+}
+a:hover {
+  color:red;
+}
+.new-content-block {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: lightgreen;
+    border: 1px solid thin;
+    border-radius: 5px;
+}
 .styled-image {
     height: auto;
     width: 300px;
@@ -79,8 +79,12 @@ a:hover {
 h2 {
     font-size: bold 200%; 
     color: darkslategray;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 p {
     font-size: 90%;
     font-style: italic;
+    margin: 5px;
+    padding: 10px;
 }

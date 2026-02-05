@@ -22,6 +22,14 @@ Links: I changed the link colors because I think it works better with the curren
 
 Images: This was again just experimenting on my part, just seeing what I could do.
 
+Flexbox Challenge:
+    -Explain which element you chose and why:
+        I chose to put pictures in my flexbox.
+    -Describe how putting it in a flexbox container changes layout:
+        It is kind of like putting in a table, it draws more attention.
+    -Explain why the different background helps visually separate it:
+        It provides contrast.
+
 Flexbox Layout Expansion:
     -What section did you focus on styling and why?
         I focused on adding images to the flexbox.
