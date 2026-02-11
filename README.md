@@ -39,3 +39,14 @@ Flexbox Layout Expansion:
         The layout of the photos.
     -One CSS rule that was confusing at first:
         Trying to figure out how to do the 'hover' effect.
+
+Which section did you focus on for advanced selectors?
+    -I focused mostly on my second page, adding elements there. I also worked on the block on 
+        the first page, at the bottom.
+
+Why are nested selectors more useful than global styling?
+    -Nested selectors are easier to find when sectioned off by an element. 
+
+One selector that felt especially powerful: I liked the fade I did on the main page.
+
+One selector that took time to understand: Adding the second page colomns took me some time.
