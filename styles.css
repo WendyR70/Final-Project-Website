@@ -4,22 +4,44 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+/*Styling for the navbar*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    }
+.navbar li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    }
+.navbar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*Styling for the flex-container with photos on first page*/ 
 .flex-container {
     display: flex;
     background-color: lightgreen;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
 }
-.flex-item {
+ .flex-item {
     position: relative;
     flex: 1;
     max-width: 300px;
     overflow: hidden;
     cursor: hand;
 }
-.flex-item {
+/*All images were taken by me*/
+.flex-item img {
     width:100%;
     height: auto;
     display: block;
@@ -58,6 +80,7 @@ a {
 a:hover {
   color:red;
 }
+/*Stylized text box on fourth page*/
 .new-content-block {
     display: block;
     width: 80%;
@@ -68,8 +91,8 @@ a:hover {
     border-radius: 5px;
 }
 .styled-image {
-    height: auto;
-    width: 300px;
+    height: 40%;
+    width: 200px;
     display: block;
     border-radius: 8px;
     border: 8px solid black;
@@ -87,17 +110,19 @@ p {
     margin: 10px;
     padding: 10px;
 }
+/*Styling for grid-container on second page*/
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
 }
-.column {
+.grid-item img {
+    object-fit: cover;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -109,4 +134,26 @@ p {
 .p {
     color: #666;
 }
+/*Adding responsive styling items on different pages*/
+@media screen and (max-width: 828px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar li a {
+        padding: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-item img {
+        max-width: 90%;
+        margin: 10px;
+    }
+}
 
+
+ 

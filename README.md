@@ -50,3 +50,5 @@ Why are nested selectors more useful than global styling?
 One selector that felt especially powerful: I liked the fade I did on the main page.
 
 One selector that took time to understand: Adding the second page colomns took me some time.
+
+I added some responsive elements to styling in my pages.
