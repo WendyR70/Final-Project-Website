@@ -52,3 +52,18 @@ One selector that felt especially powerful: I liked the fade I did on the main p
 One selector that took time to understand: Adding the second page colomns took me some time.
 
 I added some responsive elements to styling in my pages.
+
+Flexbox #1 is on the main page.
+
+Flexbox #2 is on The Early Years page. 
+
+The Grid layout is on the Final Years page.
+
+When would you use grid instead of flexbox?
+    -CSS Grid is for two-dimensional layouts, and a Flexbox is for either a row or a column at a time.
+
+What was the hardest part of building your grid layout?
+    -It was actually getting the headline and paragraph of the individual cells fit. I had to start over a few times.
+
+How did media queries change your layout?
+    -It made it look different each time I shrunk it down.

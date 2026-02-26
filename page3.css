@@ -1,0 +1,25 @@
+.hover-container {
+    position: relative; 
+    display: inline-block; 
+    border-bottom: 1px dotted black; 
+}
+.bubble {
+    visibility: hidden;
+    opacity: 0;
+    width: 480px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1; 
+    top: 125%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.hover-container:hover .bubble {
+    visibility: visible;
+    opacity: 1;
+}
