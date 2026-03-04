@@ -1,11 +1,16 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;
-  background-color: white;
+  gap: 10px;
+  background-color: rgb(126, 210, 84);
 }
 .grid-item {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: 40px;
   background-color: #f9f9f9;
 }
@@ -14,23 +19,33 @@
   font-size: larger;
 }
 .grid-item-one {
-  background-color: lightpink;
+  background-color: lightgreen;
 }
 .grid-item-two {
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 .grid-item-three {
   background-color: lightgreen;
 }
 .grid-item-four {
-  background-color: lightcoral;
+  background-color: lightgreen;
 }
 .grid-item-five {
-  background-color: lightcyan;
+  background-color: lightgreen;
 }
 .grid-item-six {
-  background-color: lightgoldenrodyellow;
+  background-color: lightgreen;
 }
+.new-content-block {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background: linear-gradient(to top, lightgreen, white);
+    border: 1px solid thin;
+    border-radius: 5px;
+}
+
 @media (max-width: 900px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);

@@ -1,5 +1,4 @@
 
-/*Styling for flex-container on second page*/
 .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +25,7 @@
     height: auto;
     display: block;
 }
+
 @media (max-width: 768px) {
     .image-container{
         flex-direction: column;
