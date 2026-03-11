@@ -19,29 +19,29 @@ body {
   font-size: larger;
 }
 .grid-item-one {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .grid-item-two {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .grid-item-three {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .grid-item-four {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .grid-item-five {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .grid-item-six {
-  background-color: lightgreen;
+  background-color: rgba(154, 241, 123, 0.936);
 }
 .new-content-block {
     display: block;
     width: 80%;
     margin: 20px auto;
     padding: 15px;
-    background: linear-gradient(to top, lightgreen, white);
+    background: linear-gradient(to top, rgba(154, 241, 123, 0.936), white);
     border: 1px solid thin;
     border-radius: 5px;
 }

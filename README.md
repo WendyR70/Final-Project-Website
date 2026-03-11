@@ -67,3 +67,11 @@ What was the hardest part of building your grid layout?
 
 How did media queries change your layout?
     -It made it look different each time I shrunk it down.
+
+Suggestions from my peer reviews:
+    -I think the green background is a bit too bright. I would recommend darkening the green so it's easier to see the text on the home page (like links to The Early Years and such).
+    -I found a bug or issue in "The Early Years" when I put it to full screen on my computer, the pictures go over the words. However, it's fine when it's on a smaller screen.
+
+What I added to improve my website based on suggestions:
+    -I played around with the background color on my main page to hopefully make it less bright, and changed the font color on my hyperlinks.
+    -I added some additional coding to make the captions in the grid say in the borders.

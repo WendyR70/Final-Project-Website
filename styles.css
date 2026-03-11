@@ -78,7 +78,7 @@ a:hover {
   text-align: center;
 }
 .styled-image {
-    width: 30%;
+    width: 40%;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
@@ -87,7 +87,7 @@ a:hover {
     box-shadow: rgba(red, green, blue, alpha);
 }
 h2 {
-    font-size: bold 300%; 
+    font-size: bold 250%; 
     color: darkslategray;
     margin-top: 30px;
     margin-bottom: 5px;
@@ -104,6 +104,9 @@ p {
     font-size: italic 200%;
     margin: 10px;
     padding: 10px;
+}
+.footer {
+    font-family: "Lobster Two", sans-serif;;
 }
 
 @media screen and (max-width: 828px) {
@@ -127,7 +130,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   .styled-image {
-    width: 50%;
+    width: 70%;
   }
 }
 
