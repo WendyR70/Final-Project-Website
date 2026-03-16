@@ -75,3 +75,5 @@ Suggestions from my peer reviews:
 What I added to improve my website based on suggestions:
     -I played around with the background color on my main page to hopefully make it less bright, and changed the font color on my hyperlinks.
     -I added some additional coding to make the captions in the grid say in the borders.
+
+I am still not super happy with the transition for the stand alone images, but my tweaking is just making it worse.

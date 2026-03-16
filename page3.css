@@ -31,9 +31,9 @@
     visibility: visible;
     opacity: 1;
 }
-}
+
 @media screen and (max-width: 600px) {
   .styled-image {
-    width: 50%;
+    width: 60%;
   }
 }
